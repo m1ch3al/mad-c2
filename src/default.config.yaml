@@ -1,0 +1,16 @@
+
+network-configuration:
+  - udp-client-configuration:
+      sensor: gps
+      host: 127.0.0.1
+      port: 10000
+
+  - udp-client-configuration:
+      sensor: environmental
+      host: 127.0.0.1
+      port: 10001
+
+  - udp-client-configuration:
+      sensor: inclinometer
+      host: 127.0.0.1
+      port: 10002
